@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  header .sub {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  main section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  .todo ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .todo li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .todo input {
+    margin-right: 10px;
+  }
+  
+  .category .buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .category .buttons button:hover {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .stats .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    flex: 1;
+    min-width: 150px;
+    padding: 20px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 8px;
+  }
+  
+  .card .up {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .card .down {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .actions button {
+    margin: 10px;
+    padding: 12px 20px;
+    background: #4a90e2;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    background: #357abd;
+  }
+  
+  .notes .note {
+    background-color: #fefefe;
+    border-left: 5px solid #4a90e2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  
+  footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  footer.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .nav-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+    

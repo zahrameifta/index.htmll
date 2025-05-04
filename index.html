@@ -1,16 +1,91 @@
-<import numpy as np
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Notes</title>
+</div class="menu-icon">&#9776;</div> <!-- Garis tiga -->
+</header>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Profil -->
+  <section class="profile">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Zahra Meifta Amalia">
+    <div class="profile-name">Zahra Meifta Amalia</div>
+  </section>
+  <main class="container">
+    <section class="todo">
+      <h2>To Do List</h2>
+      <ul>
+        <li><input type="checkbox" id="shopping"><label for="shopping">Shopping</label></li>
+        <li><input type="checkbox" id="workout"><label for="workout">Workout</label></li>
+      </ul>
+    </section>
 
-# Membuat array 1D
-array_1d = np.array([1, 2, 3, 4, 5])
-print("Array 1D:", array_1d)
+    <section class="category">
+      <h2>Category</h2>
+      <div class="buttons">
+        <button>Work</button>
+        <button>Personal</button>
+        <button>Study</button>
+      </div>
+    </section>
 
-# Membuat array 2D
-array_2d = np.array([[1, 2, 3], [4, 5, 6]])
-print("Array 2D:\n", array_2d)
+    <section class="stats">
+      <h2>Productivity Stats</h2>
+      <div class="cards">
+        <div class="card">
+          <p>Overdue Task</p>
+          <h3>3</h3>
+          <span class="down">-10%</span>
+        </div>
+        <div class="card">
+          <p>Total Completed</p>
+          <h3>15</h3>
+          <span class="up">+25%</span>
+        </div>
+      </div>
+    </section>
 
-# Bentuk (shape) array
-print("Shape array 2D:", array_2d.shape)
+    <section class="actions">
+      <button>Add Reminder</button>
+      <button>Add Note</button>
+      <button>Add Checklist</button>
+    </section>
 
-# Mengubah bentuk array
-reshaped_array = array_2d.reshape(3, 2)
-print("Array 2D setelah reshape:\n", reshaped_array)
+    <section class="notes">
+      <h2>Recent Notes</h2>
+      <div class="note">
+        <h4>Meeting Notes</h4>
+        <p>Summary of client meeting 📎</p>
+      </div>
+      <div class="note">
+        <h4>Study Plan</h4>
+        <p>Bab 3 dan latihan soal minggu ini.</p>
+      </div>
+    </section>
+  </main>
+  <section class="labels">
+    <h2>Labels</h2>
+    <div class="label-buttons">
+      <button class="active">Work</button>
+      <button class="active">Personal</button>
+      <button class="active">Study</button>
+      <button>games</button>
+      <button>organisasi</button>
+      <button>Date</button>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Zahra Meifta Amalia | Daily Notes</p>
+  </footer>
+</body>
+<footer class="bottom-nav">
+    <div class="nav-icon">🏠</div>
+    <div class="nav-icon">📅</div>
+    <div class="nav-icon">🔍</div>
+    <div class="nav-icon">✏️</div>
+  </footer>
+  
+</html>
